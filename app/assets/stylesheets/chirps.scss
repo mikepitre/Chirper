@@ -1,3 +1,33 @@
 // Place all the styles related to the chirps controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+span {
+  font-size: 2em;
+  padding-right: 30px;
+  clear: both;
+  display: block;
+  margin-top: 5px;
+  float: right;
+}
+
+p {
+  display: block;
+  clear: left;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.user {
+  margin-top: 10px;
+  font-weight: bold;
+  margin-left: 3px;
+}
+
+.chirp {
+  margin: 10px;
+}
+
+a {
+  margin-left: 10px;
+}

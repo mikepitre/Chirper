@@ -10,6 +10,48 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
+ *= require normalize-rails
  *= require_tree .
  *= require_self
  */
+
+* {
+  box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+  padding: 10px;
+  color: white;
+  background-color: black;
+}
+
+h1 {
+  font-size: 2em;
+  color: white;
+}
+
+h1:hover {
+  color: white;
+}
+
+body {
+  background: white;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #00aced;
+}
+
+footer {
+  background: black;
+  color: white;
+  padding: 10px 0;
+}
+
+footer p {
+  text-align: center;
+}
+
