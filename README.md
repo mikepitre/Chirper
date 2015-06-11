@@ -1,8 +1,10 @@
 == Chirper
 
+https://secure-island-5358.herokuapp.com/
+
 Very Simple Twitter like CRUD app
 
-Intended UML
+Intended UML (Not actual)
 ==============
 
 Models
